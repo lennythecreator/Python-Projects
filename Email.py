@@ -3,8 +3,8 @@ from email.message import EmailMessage
 import ssl
 import smtplib
 
-email_sender = "lenyeuwaeme@gmail.com"
-email_password = 'dwjvdpzbeojyeess'
+email_sender = ""
+email_password = ''
 email_receiver = input("Send to: ")
 
 subject = input("Subject: ")
