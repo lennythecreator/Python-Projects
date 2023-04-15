@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenny's portfolio</title>
+</head>
+<body>
+    <div class="containeer">
+        <nav>
+            
+            <div class="logo">Portfolio<b>.</b></div>
+            <ul class="Nav-items">
+                <li><a href="index.html">home</a></li>
+                <li><a href="About.html">about</a></li>
+                <li><a href="Skills.html">skills</a></li>
+                
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/chukwulenyeudo-uwaeme-525a04250/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/lennythecreator" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols col0">
+                <span class="topline"> Hey!</span>
+                <h1>I'm <span class="Name">Lenny</span></h1>
+                <h2>A <span class="multitext">Lenny!</span></h2>
+
+                <div class="Motowrap"><span class="Moto"></span></div>
+                <p>I love coding because it allows me to create something out of nothing, to bring my ideas to life and share them with others. I also believe in the power of coding to solve problems and make the world a better place. Whether it's creating a website to promote a cause I care about or developing apps to help people connect and communicate.</p>
+                <div class="buttons">
+                    <form action="https://en.wikipedia.org/wiki/Malcolm_X">
+                        <button type="submit" class="Inspiration">Inspiration</button>
+                     </form>
+                    <button>Resume!</button>
+                </div>
+            </div>
+            <div class="cols col1">
+                <div class="imgbox">
+                    <img src="" id="splash">
+                    <img src="Homeimg.jpg" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="writer">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+        const instance = new Typewriter('.multitext',{
+            strings: ["Coder","Writer","Creator"],
+            autoStart: true,
+            loop: true,
+        });
+
+        const instance2 = new Typewriter('.Moto',{
+            strings: ["  Strength","  Integrity","  Motivation"],
+            autoStart: true,
+            loop: true,
+        });
+
+    </script>
+    </div>
+</body>
+</html>

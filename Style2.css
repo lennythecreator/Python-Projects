@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif ;
+}
+h1{
+    font-size: 45px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    
+}
+.Nav-items{
+    display: flex;
+    
+
+}
+
+.Nav-items li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.Nav-items li a{
+    font-size: 25px;
+    color: rgb(121, 75, 121);
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: darksalmon;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+b{
+    font-size: 70px;
+    font-weight: 40px;
+    color: slateblue;
+
+}
+
+.links a{
+    font-size: 40px;
+    color: rgb(121, 75, 121);
+}
+
+.story{
+    
+    font-size: 15px;
+    
+}
+.Quote{
+    font-size: 35px;
+    font-weight: 900;
+    color:rgb(120, 61, 176)
+}
+.wrapper{
+    display: flex;
+    position: relative;
+    top: 60px;
+    left:150px;
+    background-color: rgb(241, 197, 192);
+    margin: 5px;
+    border-radius: 15px;
+    animation-name: move;
+    animation-iteration-count: 10s;
+    animation-timing-function: ease-out;
+    animation-duration: 4s;
+    width: 70%;
+
+}
+@keyframes move{
+    0% {
+        
+        opacity: 25%;
+      }
+      50% {
+        opacity: 75%;
+      }
+      100% {
+        opacity: 100%;
+      }
+}
+p{
+    margin: 5px;
+    background-color: antiquewhite;
+    border: 5px soild white;
+    border-radius: 15px;
+}
+.about_img{
+    height: 350px;
+    width: 300px;
+    border-radius: 25%;
+    margin: 10px;
+}
